@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F0F2F5;
+
+}
+.container{
+    float: left;
+    width: 45%;
+}
+.content{
+    padding-top: 35%;
+    padding-left: 15%;
+}
+.content h1 {
+    font: klavika;
+    color: #4B92F3;
+    font-size: 70px;
+}
+.content p{
+    font: klavika;
+    font-size: 30px;
+    padding-top: 5px;
+}
+.login-card{
+    float: right;
+    width: 45%;
+    
+}
+.contact-form{
+    width: 60%;
+    background-color: white;
+    height: 400px;
+    margin-top: 70px;
+    padding-top: 50px;
+    border-radius: 10px;
+    font: Helvetica, Arial;
+  
+}
+.contact-form form input{
+height: 50px;
+width: 90%;
+border-color: #DDDFE2;
+outline: none;
+margin-left: 20px;
+border-radius: 5px;
+font: Helvetica, Arial;
+border: 1px solid #ccc;
+}
+.clear{
+    clear: both;
+}
+.login{
+    height: 50px;
+    width: 90%;
+    border-radius: 5px;
+    background-color:#3F78F4 ;
+    margin-left: 22px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #F0F2F5;
+    outline: none;
+    font: Helvetica, Arial;
+    border: 1px solid #ccc;
+}
+.new-account{
+    height: 55px;
+    width: 50%;
+    border-radius: 5px;
+    background-color: #57B82B;
+    margin-left: 100px;
+    /* margin-top: 10px; */
+    color: #F0F2F5;
+    outline: none;
+    font: Helvetica, Arial;
+    border: 1px solid #ccc;
+
+}
+.forget {
+    color: #3F78F4;
+    padding-top: 20px;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font: klavika;
+}
+.contact-form form hr{
+    margin-top: 30px;
+    margin-bottom: 15px; 
+    
+}
